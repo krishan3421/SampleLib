@@ -2,6 +2,7 @@ package com.demo;
 
 import android.os.Bundle;
 
+import com.demolib.DemoClass;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
@@ -29,6 +30,10 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+        DemoClass demoClass = new DemoClass();
+        System.out.println("dtaa>>> "+demoClass.returnString("Hello World"));
+
+
     }
 
     @Override
