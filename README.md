@@ -1,8 +1,10 @@
 # SampleLib
-demo
+
 
 For gradle--
-Add it in your root build.gradle at the end of repositories:
+
+
+Step 1. Add it in your root build.gradle at the end of repositories:
 
 	allprojects {
 		repositories {
@@ -33,5 +35,5 @@ Step 2. Add the dependency
 	<dependency>
 	    <groupId>com.github.krishan3421</groupId>
 	    <artifactId>SampleLib</artifactId>
-	    <version>Tag</version>
+	    <version>1.1</version>
 	</dependency>
